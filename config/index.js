@@ -32,11 +32,13 @@ export const config = {
     FESTIVALS: [
       {"type": "生日", "name": "海东", "year": "1998", "date": "11-21"},
       {"type": "节日", "name": "在一起", "year": "2017", "date": "09-12"},
+      {"type": "生日", "name": "海东", "year": "1998", "date": "11-21"},
+      {"type": "节日", "name": "在一起", "year": "2017", "date": "09-12"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 0,
+    FESTIVALS_LIMIT: 3,
 
     /** 日期相关 */
 
