@@ -8,7 +8,7 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "290db43ef2f729fbce7714d1a091e14a",
     // 模板消息id
-    TEMPLATE_ID: "JuSzJ2MjCn-Bs9AuIZJbiCfxMYktep-xOCi7R5--gBM",
+    TEMPLATE_ID: "2N6bxfzGNXva8kFor1toHAEJoAhxxEFVlmu0xZcbdxk",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
     USERS: ["oqqlN5uR0evWUP7jf2qI6Q03QrXU"],
      
@@ -36,7 +36,7 @@ export const config = {
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
-    FESTIVALS_LIMIT: 2,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
